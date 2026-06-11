@@ -1,0 +1,12 @@
+{
+  "name": "vendedorpro",
+  "version": "1.0.0",
+  "description": "Coach de ventas para Ferretería Oviedo: convierte el reporte transaccional en feedback por vendedor.",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
