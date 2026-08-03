@@ -1,6 +1,0 @@
-# Copia este archivo a .env y completa tu clave.
-# En Netlify: Site settings > Environment variables > Add variable
-ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxxxxxxxxxxxxx
-
-# Opcional: cambiar el modelo
-# COACH_MODEL=claude-sonnet-4-6
