@@ -1,9 +1,0 @@
-# Nunca subir la clave ni dependencias
-.env
-.env.local
-node_modules/
-
-# Sistema
-.DS_Store
-*.log
-.netlify/
