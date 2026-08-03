@@ -1,0 +1,13 @@
+# Clave de la API de Anthropic (se factura aparte de la suscripción de Claude.ai)
+ANTHROPIC_API_KEY=sk-ant-...
+
+# Modelo del coaching (opcional)
+COACH_MODEL=claude-sonnet-4-6
+
+# Firma del token de sesión. Generar con:
+#   node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+SESSION_SECRET=
+
+# Usuarios habilitados. claveHash = sha256 de la clave. Generar con:
+#   node -e "console.log(require('crypto').createHash('sha256').update('la-clave').digest('hex'))"
+USUARIOS=[{"usuario":"fmunoz","claveHash":"","nombre":"Francisco Munoz","rol":"admin","tienda":"Central"}]
